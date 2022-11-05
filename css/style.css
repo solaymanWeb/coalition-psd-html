@@ -197,4 +197,32 @@ font-family: 'Lato', sans-serif; */
     font-weight: 300;
     font-family: "Lato";
 }
-
+/* Mountain section CSS start */
+.mountain-area{
+    background-color: #414f6b;
+    width: 100%;
+}
+.mountain-main{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    
+}
+.mountain-main a{
+    font-size: 20px;
+    color: #b0b4be;
+    font-weight: 700;
+    font-family: "Oswald";
+    padding: 5px 20px;
+    text-decoration: none;
+    transition: all .5s ;
+    -webkit-transition: all .5s ;
+    -moz-transition: all .5s ;
+    -ms-transition: all .5s ;
+    -o-transition: all .5s ;
+}
+.mountain-main a:hover{
+    color: #414f6b;
+    background-color: #b0b4be;  
+    text-decoration:underline;
+}

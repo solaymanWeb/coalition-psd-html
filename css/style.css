@@ -226,3 +226,53 @@ font-family: 'Lato', sans-serif; */
     background-color: #b0b4be;  
     text-decoration:underline;
 }
+/* schedule section  */
+
+.schedule-area{
+    background-image: url("../images/footer-up-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 540px;
+    
+}
+.schedule-main{
+    width: 350px;
+    margin-top: 120px;
+    padding: 20px 30px;
+    background-color: #fff;
+    opacity: .7;
+    margin-left: 4.5%;
+}
+.schedule-main h3{
+    font-size: 32px;
+    color: #414f6b;
+    font-weight: 700;
+    /* font-family: "Oswald"; */
+}
+.schedule-date-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* footer area CSS start */
+.footer-area{
+    background-color: #414f6b;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.footer-main p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #63769d;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "Lato";
+    margin: 0px;
+}

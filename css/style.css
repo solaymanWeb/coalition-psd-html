@@ -125,6 +125,9 @@ font-family: 'Lato', sans-serif; */
     height: auto;
     align-items: center;
 }
+.history-main{
+    padding-top: 60px;
+}
 .hisoty h2{
     opacity: 0.502;
     font-size: 136px;
@@ -132,6 +135,7 @@ font-family: 'Lato', sans-serif; */
     font-weight: 700;
     /* font-family: "Oswald"; */
 }
+
 .hisoty h3{
     position: relative;
     font-size: 32px;
@@ -140,13 +144,13 @@ font-family: 'Lato', sans-serif; */
     /* font-family: "Oswald"; */
 }
 .history-main p{
-    width: 814px;
-    height: 339px;
     font-size: 16px;
     line-height: 24px;
     color: #000000;
     font-weight: 300;
     font-family: "Lato";
+    padding-left: 6%;
+    padding-right: 28.5%;
 }
 .hisoty h3::after{
     position: absolute;
@@ -154,6 +158,26 @@ font-family: 'Lato', sans-serif; */
     width: 20px;
     height: 20px;
     background-color:#414f6b ;
+    opacity: 0.502;
     left: 0;
     bottom: -100%;
 }
+
+/* Slider section CSS start */
+.slider-area{
+    background-image: url("../images/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.slider-main{
+    display: flex;
+    justify-content: space-between;
+}
+.slide{
+    width: 220px;
+}
+.slide img{
+    width: 100%;
+}
+
